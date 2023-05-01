@@ -5,26 +5,37 @@ import SignIn from "./pages/Signin";
 import SignUp from "./pages/Signup";
 import Offers from "./pages/Offers";
 import ForgotPassword from "./pages/ForgotPassword";
-
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 import './App.css';
 import Header from './components/Header';
 
 function App() {
   return (
-    <Router>
-      <Header/>
+    <><Router>
+      <Header />
       <Routes>
-        <Route path="/" element={<Home/>}></Route>
-        <Route path="/profile" element={<Profile/>}></Route>
-        <Route path="/sign-in" element={<SignIn/>}></Route>
-        <Route path="/sign-up" element={<SignUp/>}></Route>
-        <Route path="/offers" element={<Offers/>}></Route>
-        <Route path="/forgot-password" element={<ForgotPassword/>}></Route>
-        
-        
-        
+        <Route path="/" element={<Home />}></Route>
+        <Route path="/profile" element={<Profile />}></Route>
+        <Route path="/sign-in" element={<SignIn />}></Route>
+        <Route path="/sign-up" element={<SignUp />}></Route>
+        <Route path="/offers" element={<Offers />}></Route>
+        <Route path="/forgot-password" element={<ForgotPassword />}></Route>
+
+
+
       </Routes>
-    </Router>
+    </Router><ToastContainer
+        position="bottom-center"
+        autoClose={5000}
+        hideProgressBar={false}
+        newestOnTop={false}
+        closeOnClick
+        rtl={false}
+        pauseOnFocusLoss
+        draggable
+        pauseOnHover
+        theme="dark" /></>
   );
 }
 

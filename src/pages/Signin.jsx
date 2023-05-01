@@ -23,7 +23,7 @@ export default function Signin() {
       </h1>
       <div className="flex justify-center flex-wrap items-center px-6 py-12 max-w-6 mx-auto">
         <div className="md:w-[67%] lg:w-[50%] mb-12 md:mb-6">
-          <img src="https://media.istockphoto.com/id/1027287194/photo/doctor-shows-the-system-of-protection-of-the-internal-organs.jpg?s=1024x1024&w=is&k=20&c=uOGMi4JBkMAukzub2WPzwNJ9UXqNEjmg0gt8QH1XtoM=" alt="key" className="w-full rounded-2xl"/>
+          <img src="https://img.freepik.com/free-vector/access-control-system-abstract-concept_335657-3180.jpg?size=338&ext=jpg" alt="key" className="w-full rounded-2xl"/>
         </div>
 
         <div className="w-full md:w-[67%] lg:w-[40%] lg:ml-20">
