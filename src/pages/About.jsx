@@ -12,7 +12,7 @@ const About = () => {
         <Col md={4} className="text-center">
           <FontAwesomeIcon icon={faUser} size="6x" className="mb-4" />
           <h3>Jatin</h3>
-          <p>Data Maven | Web Developer</p>
+          <p>Data Maven | Web Developer | Python</p>
         </Col>
         <Col md={8}>
           <center><h2>About Me</h2></center>
@@ -31,7 +31,7 @@ If you're interested in working together, please don't hesitate to reach out. I'
             </Col>
             <Col md={4}>
               <FontAwesomeIcon icon={faLinkedin} size="2x" />
-              <p>linkedin.com/in/JatinAllamsetty27</p>
+              <p>linkedin.com/in/Jatin</p>
             </Col>
           </Row>
         </Col>
